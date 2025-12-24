@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.API", "CivicConnect.API\CivicConnect.API.csproj", "{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.Models", "CivicConnect.Models\CivicConnect.Models.csproj", "{CDCDABBD-213E-4762-A616-65CA73187012}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCDABBD-213E-4762-A616-65CA73187012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCDABBD-213E-4762-A616-65CA73187012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCDABBD-213E-4762-A616-65CA73187012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCDABBD-213E-4762-A616-65CA73187012}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
