@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CivicConnect.Services\CivicConnect.Services.csproj" />
+    <ProjectReference Include="..\CivicConnect.Infrastructure\CivicConnect.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,3 +17,8 @@ obj/
 # OS
 .DS_Store
 Thumbs.db
+
+# Visual Studio privremeni fajlovi
+.vs/
+backend/.vs/
+*.vsidx

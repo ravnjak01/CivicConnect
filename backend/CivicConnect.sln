@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.API", "CivicConnect.API\CivicConnect.API.csproj", "{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.Models", "CivicConnect.Models\CivicConnect.Models.csproj", "{CDCDABBD-213E-4762-A616-65CA73187012}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.Infrastructure", "CivicConnect.Infrastructure\CivicConnect.Infrastructure.csproj", "{E21745B9-5476-4E8F-884A-085AD95C4133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.Services", "CivicConnect.Services\CivicConnect.Services.csproj", "{FF7D530A-4015-4AD3-8484-7F3098120A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CivicConnect.WebAPI", "CivicConnect.WebAPI\CivicConnect.WebAPI.csproj", "{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4F5C160B-BB96-4B1F-BC4B-132F54DF726B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CDCDABBD-213E-4762-A616-65CA73187012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CDCDABBD-213E-4762-A616-65CA73187012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDCDABBD-213E-4762-A616-65CA73187012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDCDABBD-213E-4762-A616-65CA73187012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E21745B9-5476-4E8F-884A-085AD95C4133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21745B9-5476-4E8F-884A-085AD95C4133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21745B9-5476-4E8F-884A-085AD95C4133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21745B9-5476-4E8F-884A-085AD95C4133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF7D530A-4015-4AD3-8484-7F3098120A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF7D530A-4015-4AD3-8484-7F3098120A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF7D530A-4015-4AD3-8484-7F3098120A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF7D530A-4015-4AD3-8484-7F3098120A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
