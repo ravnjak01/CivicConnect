@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FF7D530A-4015-4AD3-8484-7F3098120A53}|CivicConnect.Services\\CivicConnect.Services.csproj|c:\\users\\korisnik\\source\\repos\\civicconnect\\backend\\civicconnect.services\\interfaces\\iissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FF7D530A-4015-4AD3-8484-7F3098120A53}|CivicConnect.Services\\CivicConnect.Services.csproj|solutionrelative:civicconnect.services\\interfaces\\iissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21745B9-5476-4E8F-884A-085AD95C4133}|CivicConnect.Infrastructure\\CivicConnect.Infrastructure.csproj|c:\\users\\korisnik\\source\\repos\\civicconnect\\backend\\civicconnect.infrastructure\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21745B9-5476-4E8F-884A-085AD95C4133}|CivicConnect.Infrastructure\\CivicConnect.Infrastructure.csproj|solutionrelative:civicconnect.infrastructure\\services\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}|CivicConnect.WebAPI\\CivicConnect.WebAPI.csproj|c:\\users\\korisnik\\source\\repos\\civicconnect\\backend\\civicconnect.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20A8B75C-84D2-44EE-97E1-CCE6B856E7B4}|CivicConnect.WebAPI\\CivicConnect.WebAPI.csproj|solutionrelative:civicconnect.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CDCDABBD-213E-4762-A616-65CA73187012}|CivicConnect.Models\\CivicConnect.Models.csproj|c:\\users\\korisnik\\source\\repos\\civicconnect\\backend\\civicconnect.models\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CDCDABBD-213E-4762-A616-65CA73187012}|CivicConnect.Models\\CivicConnect.Models.csproj|solutionrelative:civicconnect.models\\entities\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +62,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "CivicConnect.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.WebAPI\\Program.cs",
+              "RelativeToolTip": "CivicConnect.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:59:31.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IssueService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Infrastructure\\Services\\IssueService.cs",
+              "RelativeDocumentMoniker": "CivicConnect.Infrastructure\\Services\\IssueService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Infrastructure\\Services\\IssueService.cs",
+              "RelativeToolTip": "CivicConnect.Infrastructure\\Services\\IssueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:58:59.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IIssueService.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Services\\Interfaces\\IIssueService.cs",
+              "RelativeDocumentMoniker": "CivicConnect.Services\\Interfaces\\IIssueService.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Services\\Interfaces\\IIssueService.cs",
+              "RelativeToolTip": "CivicConnect.Services\\Interfaces\\IIssueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T16:53:25.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "IssueStatus.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Models\\Enums\\IssueStatus.cs",
               "RelativeDocumentMoniker": "CivicConnect.Models\\Enums\\IssueStatus.cs",
@@ -62,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Issue.cs",
               "DocumentMoniker": "C:\\Users\\Korisnik\\source\\repos\\CivicConnect\\backend\\CivicConnect.Models\\Entities\\Issue.cs",
               "RelativeDocumentMoniker": "CivicConnect.Models\\Entities\\Issue.cs",
