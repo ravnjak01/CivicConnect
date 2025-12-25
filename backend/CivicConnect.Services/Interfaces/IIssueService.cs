@@ -12,3 +12,4 @@ namespace CivicConnect.Services.Interfaces
         Task<int> CreateAsync(CreateIssueDTO dto);
     }
 }
+     

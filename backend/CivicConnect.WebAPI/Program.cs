@@ -1,21 +1,29 @@
-using CivicConnect.Infrastructure.Services;
-using CivicConnect.Services.Interfaces;
+using CivicConnect.Services;           // Dodato: prostor gde je IssueService
+using CivicConnect.Services.Interfaces; // Vaš postoje?i using
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
-builder.Services.AddScoped<IIssueService, IssueService>();
+// 1. Dodavanje servisa u kontejner
+builder.Services.AddControllers(); // Dodato: neophodno za rad API kontrolera
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Registracija vašeg servisa
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 2. Konfiguracija HTTP pipeline-a
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    // Ispravljeno: Standardne metode za Swagger u .NET 7/8
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
 
+// 3. Dodato: Mapiranje kontrolera i pokretanje
+app.UseAuthorization();
+app.MapControllers();
 
+app.Run();
